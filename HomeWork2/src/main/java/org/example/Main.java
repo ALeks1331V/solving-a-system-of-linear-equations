@@ -11,7 +11,6 @@ import java.util.List;
 
 class Main{
     public static void main(String[] args) throws IOException {
-        //double[][] matrix5 = {{13.2, 1.9, 2.3, 5.12}, {0.8, -7.3, -0.7, 5.2}, {0.5, -1.4, -9.6, 1.5}};
         double[][] matrix = getMatrix();
         printMatrix(matrix);
         getMatrix();
@@ -60,7 +59,7 @@ class Main{
     }
 
     private static double[][] getMatrix() throws IOException {
-        String filePath = "E:\\projectsJAVA\\HomeWork2\\src\\main\\java\\org\\example\\SLAU.txt";
+        String filePath = "PATH";
         List<Double[]> matrix = new ArrayList<>();
         BufferedReader reader = new BufferedReader(new FileReader(filePath));
 
